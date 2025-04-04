@@ -9,11 +9,19 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&display=swap"    
+     rel="stylesheet">
+    <style>
+      .font-jetbrains-extrabold{
+        font-family: 'JetBrains Mono', monospace;
+        font-weight: 700;
+      }
+    </style>
 
     <title>Firma de abogados</title>
   </head>
   <body>
-    <header class="bg-dark text-white py-3">
+    <header class="font-jetbrains-extrabold bg-dark text-white py-3 ">
       <div class="container d-flex justify-content-between align-items-center">
         <h1 class="h3">Firma de Abogados</h1>
         <nav>
@@ -30,7 +38,7 @@
       </div>
     </header>
     <section>
-      <section id="hero" class="bg-light text-center position-relative">
+      <section id="hero" class="font-jetbrains-extrabold bg-light text-center position-relative">
         <div class="position-relative">
           <img
             src="Img/Consultorio.jpg"
@@ -47,7 +55,7 @@
           </div>
         </div>
       </section>
-      <section id="quienes-somos" class="py-5 bg-dark text-white">
+      <section id="quienes-somos" class="font-jetbrains-extrabold py-5 bg-dark text-white">
         <div class="container">
           <h2 class="text-start mb-4">Quiénes Somos</h2>
           <p class="text-start">
@@ -58,7 +66,7 @@
         </div>
       </section>
 
-      <section id="servicios" class="py-5 bg-dark bg-gradient text-white">
+      <section id="servicios" class="font-jetbrains-extrabold py-5 bg-dark bg-gradient text-white">
         <div class="container text-center">
           <h2 class="text-center mb-4">Nuestros Servicios</h2>
           <div class="row justify-content-center">
@@ -119,8 +127,32 @@
           </div>
         </div>
       </section>
-      <section id="equipo" class="py-5">
-
+      <section id="equipo" class="font-jetbrains-extrabold py-5 bg-secondary">
+        <div class="container">
+          <h2 class="text-center mb-4">Nuestro Equipo</h2>
+          <div class="row">
+            <div class="col-md-4 text-center">
+              <img
+                src="Img/abogado1.jpg"
+                alt="Abogado 1"
+                class="rounded-circle mb-3"
+                style=" width: 150px; height: 150px; object-fit: cover"
+              />
+              <h5>Juan Pérez</h5>
+              <p>Especialista en Derecho Penal</p>
+            </div>
+            <div class="col-md-4 text-center">
+              <img
+                src="Img/abogado2.jpg"
+                alt="Abogado 2"
+                class="rounded-circle mb-3"
+                style="width: 150px; height: 150px; object-fit: cover"
+              />
+              <h5>María López</h5>
+              <p>Especialista en Derecho Civil</p>
+            </div>
+          </div>
+        </div>
       </section>
     </section>
   </body>
